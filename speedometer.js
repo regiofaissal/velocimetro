@@ -10,7 +10,6 @@ startBnt.addEventListener("click", () => {
         return;
 
     function handleSuccess(position) {
-        console.log(position);
         speedElement.textContent = position.coords.speed ? (position.coords.speed * 3.6).toFixed(1) : 0;
     }
 
